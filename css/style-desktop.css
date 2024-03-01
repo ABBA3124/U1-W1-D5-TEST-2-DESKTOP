@@ -1,0 +1,62 @@
+/* impostazoni generali  */
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #393d41;
+  font-size: 1.2rem;
+  line-height: 1.65;
+  height: auto;
+  max-width: 100%;
+}
+
+.banner {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.65;
+  color: #25a2c3;
+}
+/* -------------- */
+header {
+  background-color: black;
+  padding: 10px;
+  text-align: left;
+}
+
+.contenitre1 img {
+  max-width: 8%;
+  height: auto;
+}
+.banner {
+  background-image: url(/images/banner.jpg);
+  background-position: top;
+  background-size: cover;
+  text-align: center;
+  padding: 11%;
+}
+.banner h1 {
+  font-weight: bold;
+  font-size: 28px;
+}
+.banner p {
+  color: #393d41;
+  font-size: 11px;
+}
+main div article p {
+  padding-left: 15%;
+  padding-right: 15%;
+  margin: 1rem;
+}
+.bottone {
+  display: inline-block;
+  padding: 3px 9px;
+  border-radius: 5px;
+  background-color: #f04c2f;
+  color: white;
+  font-size: 10px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: transform 0.3s ease-in-out;
+}
+
+.bottone:hover {
+  transform: scale(1.1);
+}
