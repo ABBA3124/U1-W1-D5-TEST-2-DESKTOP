@@ -30,19 +30,19 @@ header {
   background-position: top;
   background-size: cover;
   text-align: center;
-  padding: 11%;
+  padding: 15%;
 }
 .banner h1 {
   font-weight: bold;
-  font-size: 28px;
+  font-size: 56px;
 }
 .banner p {
   color: #393d41;
-  font-size: 11px;
+  font-size: 27px;
 }
 main div article p {
-  padding-left: 15%;
-  padding-right: 15%;
+  padding-left: 10%;
+  padding-right: 10%;
   margin: 1rem;
 }
 .bottone {
@@ -51,7 +51,7 @@ main div article p {
   border-radius: 5px;
   background-color: #f04c2f;
   color: white;
-  font-size: 10px;
+  font-size: 30px;
   font-weight: bold;
   text-decoration: none;
   transition: transform 0.3s ease-in-out;
