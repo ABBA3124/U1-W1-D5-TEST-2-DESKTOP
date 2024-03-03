@@ -7,6 +7,7 @@ body {
   line-height: 1.65;
   height: auto;
   max-width: 100%;
+  max-width: auto;
 }
 
 .banner {
@@ -30,7 +31,7 @@ header {
   background-position: top;
   background-size: cover;
   text-align: center;
-  padding: 15%;
+  padding: 11%;
 }
 .banner h1 {
   font-weight: bold;
@@ -59,4 +60,37 @@ main div article p {
 
 .bottone:hover {
   transform: scale(1.1);
+}
+/* ------------------------------------------ */
+
+main section.colonna1 {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  display: block;
+  text-align: center;
+}
+
+main section img.immaginenotebook {
+  border-radius: 50%;
+  margin-left: 10%;
+  width: 570px;
+}
+.bloccocolonna {
+  font-size: 100%;
+  float: right;
+  margin-right: 16%;
+  width: 600px;
+  text-align: left;
+  margin-top: 80px;
+}
+main section div.bloccocolonna div {
+  padding-bottom: 3%;
+}
+main section div.bloccocolonna div h2 {
+  font-weight: bold;
+  font-size: 1.3rem;
+  color: #25a2c3;
+}
+main section div.bloccocolonna div p {
+  font-size: 1.4rem;
 }
